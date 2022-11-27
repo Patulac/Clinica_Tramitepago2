@@ -1,0 +1,104 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.Contenido {
+
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    height: 100%;
+    padding: 5%;
+    font-family: sans-serif;
+}
+
+img {
+    height: 120px;
+    padding-inline: 100px;
+    padding-bottom: 50px;
+
+}
+
+label {
+    font-size: 20px;
+    color: #679989;
+    padding-bottom: 05px;
+    font-family: sans-serif;
+}
+
+input,
+select {
+    color: #679989;
+    height: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(172, 196, 196, 0.5);
+}
+
+input:focus {
+    border: 1px solid #679989;
+    outline: none;
+}
+
+
+a {
+    color: #679989;
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    background-color: #679989;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    margin: 90px;
+    border-radius: 5px;
+}
+
+p {
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    color: #679989;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: left;
+    padding-top: 05px;
+    margin: 30px;
+    border-radius: 5px;
+}
+
+.Valorright {
+    position: rihgt;
+    padding: 10px;
+
+    Offset: 0px, 30px;
+}
+
+.Respagolehft {
+    position: left;
+    padding: 10px;
+
+    Offset: 0px, 30px;
+}
+
+.tabla{
+    font-size: 20px;
+    color: #679989;
+    text-align: center;
+}
+
+.title{
+    line-height: 50px;
+}
+
+hr{
+    height: 2px;
+    width: 100%;
+    background-color: #679989;
+}
